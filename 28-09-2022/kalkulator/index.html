@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Kalkulator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script type="text/javascript">
+    
+function suma()
+{ let a = document.getElementById("a").value;
+let b = document.getElementById("b").value;
+a = parseFloat(a);
+b = parseFloat(b);
+ suma = a+b
+document.getElementById("wynik").innerHTML = "Wynik:" + suma;
+}
+    function roznica()
+{ let a = document.getElementById("a").value;
+let b = document.getElementById("b").value;
+a = parseFloat(a);
+b = parseFloat(b);
+roznica = a-b
+document.getElementById("wynik").innerHTML = "Wynik:" + roznica;
+}
+
+    function iloraz()
+{ let a = document.getElementById("a").value;
+let b = document.getElementById("b").value;
+a = parseFloat(a);
+b = parseFloat(b);
+iloraz = a*b
+document.getElementById("wynik").innerHTML = "Wynik:" + iloraz;
+}
+
+    function iloczyn()
+{ let a = document.getElementById("a").value;
+let b = document.getElementById("b").value;
+a = parseFloat(a);
+b = parseFloat(b);
+  iloczyn = a / b
+document.getElementById("wynik").innerHTML = "Wynik:" + iloczyn;
+}
+    
+    function iloczyn_zero()
+{ let a = document.getElementById("a").value;
+let b = document.getElementById("b").value;
+a = parseFloat(a);
+b = parseFloat(b);
+  iloczyn = a / b
+document.getElementById("wynik").innerHTML = "Wynik:" + iloczyn;
+
+
+}
+    
+    
+  </script>
+</head>
+<body>
+  <p><h1>Kalkulator</h1></p>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <input type="number" id="a">
+  <input type="number" id="b">
+  <br>
+  <div id=dodawanie>
+  <input type="button" value="DODAWANIE" onclick="suma()">
+    </div>
+    <div id=odejmowanie>
+  <input type="button" value="ODEJMOWANIE" onclick="roznica()">
+    </div>
+    <div id=mnożenie>
+  <input type="button" value="MNOŻENIE" onclick="iloraz()">
+    </div>
+    <div id=dzielenie>
+  <input type="button" value="DZIELENIE" onclick="iloczyn()">
+    </div>
+  <br>
+  <div id="wynik">......</div>
+  <img src="kalkulator.webp" alt="Nie ma kalkulatora" id=kalk width="100px" >
+</body>
+  <br>
+  <br>
+<footer><h3>Wykonał: Krystian Panek</h3></footer>
+</html>
