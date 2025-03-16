@@ -1,0 +1,32 @@
+#Banner {
+  background-color: #4E885C;
+  color: orange;
+  text-align: center;
+  height: 110px;
+}
+#Lewy {
+  background-color: #72A37D;
+  width: 30%;
+  height: 300px;
+}
+#Srodkowy {
+  background-color: #A2C3A9; 
+  background-image: url("pizza.png");
+  width: 40%;
+  height: 300px;
+}
+#Prawy {
+  background-color: #72A37D; 
+  text-align: center;
+  width: 30%;
+  height: 300px;
+}
+#Dolny {
+  background-color: #A2C3A9; 
+  text-align: center;
+  height: 250px;
+}
+#Stopka {
+  background-color: #4E885C; 
+  color: orange;
+}
