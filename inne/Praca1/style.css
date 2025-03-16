@@ -1,0 +1,8 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+table, td {
+  border: solid black 1px;
+  border-collapse: collapse;
+}
