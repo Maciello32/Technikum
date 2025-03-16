@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <script type="text/javascript">
+    function sprawdz() {
+      let liczba = document.getElementById("pole").value;
+
+      if (liczba > 0) document.getElementById("wynik").innerHTML = "dodatnia";
+      else if (liczba < 0) document.getElementById("wynik").innerHTML = "ujemna";
+      else if (liczba == 0) document.getElementById("wynik").innerHTML = "zero";
+      else document.getElementById("wynik").innerHTML = "To nie liczba";
+
+
+    }
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <input type="text" id="pole" />
+  <input type="submit" value="sprawdz" onclick="sprawdz()" />
+
+  <div id="wynik">......</div>
+
+
+
+
+
+
+
+</body>
+  
+
+</html>
