@@ -1,0 +1,39 @@
+header
+{
+background-color: red;
+height: 80px;
+padding-top: 5px;
+color: white;
+text-align: center;
+}
+#obrazek
+{
+background-color: thistle;
+  text-align: center;
+}
+#obrazek img
+{
+height: 300px;
+width: 300pxs;
+}
+#skrypt
+{
+background-color: black;
+  padding: 10px;
+color: white;
+  text-align: center;
+}
+#wynik
+{
+background-color: orange;
+  padding: 10px;
+color: white;
+  text-align: center;
+}
+footer
+{
+background-color: brown;
+  padding: 5px;
+color: white;
+  text-align: center;
+}
